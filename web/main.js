@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             let newElement = document.createElement("p")
                             let newLink = document.createElement("a")
                             newLink.href = `https://beta-storage.aef.kr/level_file/${levelID}`
+                            newLink.innerText = levelID
 
                             newElement.appendChild(newLink)
                             downloadList.appendChild(newElement)
